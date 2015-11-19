@@ -1,6 +1,8 @@
 # Scripts
 
-Store any useful scripts or templates in this directory, `scripts`.
+Store & work out any useful scripts or templates here. I can never remember the
+damn commands for these kinds of things, so I `ack` the comments in the script
+files and go from there.
 
 #### Permissions
 
@@ -12,10 +14,3 @@ I'm not using them.
 Just flip the executable permissions when you're using them...
 
 `chmod +x /path/to/script-file.sh`
-
-### Backup
-
-I'm opting not to store instructions for backing up in its own script file.
-But here's how to back up:
-
-`rsync -av ./* $HOME/Dropbox/scripts`
